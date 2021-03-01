@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap");
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+* ::before, * ::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #242426;
+  color: black;
+  font-size: 1rem;
+}
+
+div {
+  border: 0px solid black;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container #game {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  min-height: 100px;
+  margin-top: 120px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+
+.container #game p {
+  font-weight: bolder;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.container #game .question {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.container #game .question h6 {
+  text-align: center;
+}
+
+.container #game .question h6 span {
+  font-size: 0.9rem;
+}
+
+.container #game .score {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.container #game .score span {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.container .game-text {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  min-height: 400px;
+  background-color: #26204d;
+}
+
+.container .game-text h2 {
+  color: white;
+  margin-left: 20px;
+  font-size: 1.1rem;
+}
+
+.container .game-text #question-set {
+  margin-left: 20px;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.container .game-text ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container .game-text li {
+  font-size: 1.7rem;
+  font-weight: bolder;
+  padding: 10px;
+  background-color: purple;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.container .game-text .choices {
+  cursor: pointer;
+}
+
+.container .game-text .correct {
+  background-color: green;
+}
+
+.container .game-text .incorrect {
+  background-color: red;
+}
+/*# sourceMappingURL=play.css.map */
