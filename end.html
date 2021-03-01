@@ -11,16 +11,18 @@
 <body>
  <div class="container">
      <div class="res-contain">
-        <h1> Enter Your Name Here To Leave Your Score</h1>
         <h3 id="result">0</h3>
+        <h1> Enter Your Name Here To Leave Your Score</h1>
         <form>
-        <input type="text" name="username" placeholder="Enter Your Name"> 
-        <button class="btn" id="savebtn" type="submit">Save</button>
+        <input type="text" name="username" placeholder="Enter Your Name" id="username"> 
+        <button class="btn" id="savebtn" type="submit" onclick="saveHighScore(event)" disabled>Save</button>
         </form>
         <button class="btn"> <a href="play.html">Play Again </a></button>
         <button class="btn"><a href="index.html"> Return Home </a></button>
 
      </div>
- </div>   
+ </div>
+ 
+ <script src="end.js"></script>
 </body>
 </html>

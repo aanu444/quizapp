@@ -35,47 +35,47 @@ div {
           align-items: center;
 }
 
-.container .res-contain {
+.container .highscores {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
 }
 
-.container .res-contain h1 {
-  margin-top: 120px;
-  text-align: center;
-}
-
-.container .res-contain h3 {
+.container .highscores h1 {
   text-align: center;
   font-size: 2.5rem;
+  margin-top: 150px;
 }
 
-.container .res-contain input {
+.container .highscores ul {
+  list-style-type: none;
+}
+
+.container .highscores ul .highscore {
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+.container .highscores button {
   padding: 20px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 10px;
-  width: 60%;
-  border: 1px solid #242426;
-}
-
-.container .res-contain .btn {
-  padding: 20px;
   background-color: #c51f6c;
-  color: black;
-  font-weight: bolder;
-  border-radius: 10px;
   border: 1px solid #c51f6c;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  font-size: 1.5rem;
+  border-radius: 10px;
+  margin-top: 20px;
 }
 
-.container .res-contain .btn a {
+.container .highscores button a {
   text-decoration: none;
+  font-weight: bolder;
   color: black;
 }
-/*# sourceMappingURL=end.css.map */
+
+.container .highscores button:hover {
+  background-color: #a422b6;
+  border: 1px solid #a422b6;
+}
+/*# sourceMappingURL=highscores.css.map */
